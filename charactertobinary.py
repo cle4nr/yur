@@ -20,6 +20,10 @@ def chartobinary(word_input):
     for x in outpt:
         print(decimaltobinary(x))
         
-        
-
-print(chartobinary('20ac'))
+    
+'''
+binary_out = chartobinary('20ac') 
+while len(binary_out) < 8:
+    binary_out = '0' + binary_out
+    
+'''
